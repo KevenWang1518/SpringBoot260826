@@ -41,11 +41,11 @@
 --------------------------------------------------------------------
 1.SpringBoot项目打包部署是非常方便的，便捷的。首先需要在pom.xml文件中添加打包的插件:
 <build>
-<plugins>
-<plugin>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
-</plugins>
+    <plugins>
+        <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
 </build>
 2.执行mvn package命令来打包。(最终会打成可执行jar包)
