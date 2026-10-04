@@ -1,4 +1,4 @@
-package com.wyjun.SpringBoot02.controller;
+package com.wyjun.springboot03.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
