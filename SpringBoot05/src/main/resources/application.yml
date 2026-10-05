@@ -1,2 +1,33 @@
-spring.application.name: SpringBoot05
+spring:
+  config:
+    import:
+      - classpath:application-mysql.yml
+      - classpath:application-redis.yml
+  application:
+    name: SpringBoot05
+
 email: 123456@qq.com
+names1: zhangsan,lisi,wangwu
+names2: lucy,lily,bob
+myapp:
+  name: douyin
+  build: 2010
+
+# 单引号中的是字符串，绝对的纯字符串，如果有转义字符，转义字符也会被当做普通的字符串来看待。
+content1: 'a\nb'
+#如果使用双引号，也是字符串类型，字符串中如果有转义字符，会当做转义字符。
+content2: "a\nb"
+#如果没有添加双引号，也没有添加单引号，默认是单引号效果。
+content3: c\nd
+#添加一个l来保持文本格式。
+---
+mycode: |
+  for(int i = 0; i < 100; i++){
+    system.out.println("i = " + i);
+  }
+#>将文本内容中的换行变成空格。
+test: >
+  a
+  b
+  c
+  d
