@@ -1,0 +1,36 @@
+customer:
+  info:
+    name: john
+    age: 22
+    address:
+      city: Beijing
+      street: Haidian
+---
+student:
+  info:
+    student-array:
+      - name: Zhangsan
+        age: 21
+      - name: Lisi
+        age: 22
+    student-list:
+      - name: Zhaoliu
+        age: 23
+      - name: Qianqi
+        age: 24
+    student-map:
+      ID001:
+        name: John
+        age: 25
+      ID002:
+        name: Lucy
+        age: 26
+my:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+
+

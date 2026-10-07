@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wyjun</groupId>
-    <artifactId>SpringBoot00</artifactId>
+    <artifactId>SpringBoot07</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringBoot00</name>
-    <description>SpringBoot00</description>
+    <name>SpringBoot07</name>
+    <description>SpringBoot07</description>
     <url/>
     <licenses>
         <license/>
