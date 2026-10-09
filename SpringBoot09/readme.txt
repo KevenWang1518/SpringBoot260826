@@ -1,1 +1,5 @@
-这个程序是相对比较完整的，有Service和Mapper，以及mapper.xml映射的项目。
+这个程序是相对比较完整的，有Controller、Service和Mapper，以及mapper.xml映射的项目。还加上了Web网页映射
+MyBatis逆向工程：使用IDEA插件可以根据数据库表的设计逆向生成MyBatis的Mapper接口 与 MapperXML文件。
+
+SSM整合：Spring + SpringMVC + MyBatis
+Spring Boot项目本身就是基于Spring框架实现的。因此SSM整合时，只需要在整合MyBatis框架之后，引入web启动器即可完成SSM整合。
