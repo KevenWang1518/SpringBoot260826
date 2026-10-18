@@ -44,6 +44,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!--引入外部的webjars-->
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>vue</artifactId>
+            <version>3.5.44</version>
+        </dependency>
+
     </dependencies>
 
     <properties>

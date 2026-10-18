@@ -28,4 +28,12 @@ public class MyApplication {
         System.out.println(bBean);
 
     }
+    //浏览器访问webjars静态资源  http://localhost:8080/webjars/vue/3.5.44/index.js
+    /*'use strict'
+            if (process.env.NODE_ENV === 'production') {
+        module.exports = require('./dist/vue.cjs.prod.js')
+    } else {
+        module.exports = require('./dist/vue.cjs.js')
+    }*/
+
 }
