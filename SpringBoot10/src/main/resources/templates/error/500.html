@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>500 Error Page</title>
+</head>
+<body>
+<h1>This is 500 Error Page</h1>
+<h1>这是服务器端错误</h1>
+
+<div th:text="${timestamp}"></div>
+<div th:text="${status}"></div>
+<div th:text="${error}"></div>
+<div th:text="${exception}"></div>
+<div th:text="${message}"></div>
+<div th:text="${trace}"></div>
+
+</body>
+</html>

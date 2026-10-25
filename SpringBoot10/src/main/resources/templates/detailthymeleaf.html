@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>detail thymeleaf</title>
+</head>
+<body>
+<h1>hello,<span th:text="${id}"></span></h1>
+<h1>hello,<span th:text="${name}"></span></h1>
+
+<h1>hello,<span th:text="${userBean.userId}"></span></h1>
+<h1>hello,<span th:text="${userBean.userName}"></span></h1>
+
+<h1>hello,<span th:text="${userBean.getUserId()}"></span></h1>
+<h1>hello,<span th:text="${userBean.getUserName()}"></span></h1>
+</body>
+</html>
