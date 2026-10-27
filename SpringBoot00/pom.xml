@@ -73,6 +73,12 @@
             <scope>testRuntimeOnly</scope>
         </dependency>
 
+        <!--引入Bean Validation启动器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
         <!--引入外部的webjars-->
         <dependency>
             <groupId>org.webjars.npm</groupId>

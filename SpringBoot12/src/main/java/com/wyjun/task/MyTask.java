@@ -10,7 +10,9 @@ import java.time.LocalDateTime;
 public class MyTask {
 
     // 指定定时任务：每隔5秒执行一次任务，以固定周期方式执行。
-    @Scheduled(fixedRate = 3000)
+    //@Scheduled(fixedRate = 3000)
+
+    @Scheduled(cron = "0 0 14 ? * MON-FRI")
     // 这里写具体的任务代码。
     // 数据备份?发送邮件?
     public void doTask() {

@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+knife4j:
+  enable: true
+  group:
+    default:
+      group-name: default
+      api-rule: package
+      api-rule-resources:
+        - com.wyjun.controller
